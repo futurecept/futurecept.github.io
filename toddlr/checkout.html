@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Jadusona - eCommerce Baby shop Bootstrap4 Template</title>
+    <title>Toddlr - The Baby Shop</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
@@ -47,7 +47,7 @@
                     <div class="col mt-10 mb-10 d-none d-md-flex">
                         <!-- Header Top Left Start -->
                         <div class="header-top-left">
-                            <p>Welcome to Jadusona</p>
+                            <p>Welcome to Toddlr</p>
                             <p>Hotline: <a href="tel:0123456789">0123 456 789</a></p>
                         </div><!-- Header Top Left End -->
                     </div>
@@ -101,7 +101,7 @@
                         <!-- Logo Start -->
                         <div class="header-logo">
                             <a href="index.html">
-                                <img src="assets/images/logo.png" alt="Jadusona">
+                                <img src="assets/images/logo.png" alt="Toddlr">
                             </a>
                         </div><!-- Logo End -->
                     </div>
@@ -139,7 +139,7 @@
                                         <ul class="sub-menu">
                                             <li><a href="index.html">Home One</a></li>
                                             <li><a href="index-2.html">Home Two</a></li>
-                                            <li><a href="index-3.html">Home Three</a></li>
+											<li><a href="index-3.html">Home Three</a></li>
                                             <li><a href="index-box.html">Home Box</a></li>
                                         </ul>
                                     </li>
@@ -156,10 +156,10 @@
                                     <li class="active"><a href="#">PAGES</a>
                                         <ul class="sub-menu">
                                             <li><a href="cart.html">Cart</a></li>
-                                            <li><a href="checkout.html">Checkout</a></li>
+                                            <li class="active"><a href="checkout.html">Checkout</a></li>
                                             <li><a href="login-register.html">Login & Register</a></li>
                                             <li><a href="my-account.html">My Account</a></li>
-                                            <li class="active"><a href="wishlist.html">Wishlist</a></li>
+                                            <li><a href="wishlist.html">Wishlist</a></li>
 											<li><a href="404.html">404 Error</a></li>
                                         </ul>
                                     </li>
@@ -190,10 +190,10 @@
             <div class="row">
                 <div class="page-banner-content col">
 
-                    <h1>Wishlist</h1>
+                    <h1>Checkout</h1>
                     <ul class="page-breadcrumb">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="wishlist.html">Wishlist</a></li>
+                        <li><a href="checkout.html">Checkout</a></li>
                     </ul>
 
                 </div>
@@ -205,45 +205,241 @@
     <div class="page-section section section-padding">
         <div class="container">
 
-            <form action="#">				
-                <div class="row">
-                    <div class="col-12">
-                        <div class="cart-table table-responsive">
-                            <table>
-                                <thead>
-                                    <tr>
-                                        <th class="pro-thumbnail">Image</th>
-                                        <th class="pro-title">Product</th>
-                                        <th class="pro-price">Price</th>
-                                        <th class="pro-quantity">Quantity</th>
-                                        <th class="pro-subtotal">Total</th>
-                                        <th class="pro-remove">Remove</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="pro-thumbnail"><a href="#"><img src="assets/images/product/product-1.jpg" alt="" /></a></td>
-                                        <td class="pro-title"><a href="#">Tmart Baby Dress</a></td>
-                                        <td class="pro-price"><span class="amount">$25</span></td>
-                                        <td class="pro-quantity"><div class="pro-qty"><input type="text" value="1"></div></td>
-                                        <td class="pro-add-cart"><a href="#">add to cart</a></td>
-                                        <td class="pro-remove"><a href="#">×</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="pro-thumbnail"><a href="#"><img src="assets/images/product/product-2.jpg" alt="" /></a></td>
-                                        <td class="pro-title"><a href="#">Jumpsuit Outfits</a></td>
-                                        <td class="pro-price"><span class="amount">$09</span></td>
-                                        <td class="pro-quantity"><div class="pro-qty"><input type="text" value="1"></div></td>
-                                        <td class="pro-add-cart"><a href="#">add to cart</a></td>
-                                        <td class="pro-remove"><a href="#">×</a></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </form>
+			<!-- Checkout Form s-->
+			<form action="#" class="checkout-form">
+			   <div class="row row-50 mbn-40">
 
+				   <div class="col-lg-7">
+
+					   <!-- Billing Address -->
+					   <div id="billing-form" class="mb-20">
+						   <h4 class="checkout-title">Billing Address</h4>
+
+						   <div class="row">
+
+							   <div class="col-md-6 col-12 mb-5">
+								   <label>First Name*</label>
+								   <input type="text" placeholder="First Name">
+							   </div>
+
+							   <div class="col-md-6 col-12 mb-5">
+								   <label>Last Name*</label>
+								   <input type="text" placeholder="Last Name">
+							   </div>
+
+							   <div class="col-md-6 col-12 mb-5">
+								   <label>Email Address*</label>
+								   <input type="email" placeholder="Email Address">
+							   </div>
+
+							   <div class="col-md-6 col-12 mb-5">
+								   <label>Phone no*</label>
+								   <input type="text" placeholder="Phone number">
+							   </div>
+
+							   <div class="col-12 mb-5">
+								   <label>Company Name</label>
+								   <input type="text" placeholder="Company Name">
+							   </div>
+
+							   <div class="col-12 mb-5">
+								   <label>Address*</label>
+								   <input type="text" placeholder="Address line 1">
+								   <input type="text" placeholder="Address line 2">
+							   </div>
+
+							   <div class="col-md-6 col-12 mb-5">
+								   <label>Country*</label>
+								   <select class="nice-select">
+										<option>Bangladesh</option>
+										<option>China</option>
+										<option>country</option>
+										<option>India</option>
+										<option>Japan</option>
+								   </select>
+							   </div>
+
+							   <div class="col-md-6 col-12 mb-5">
+								   <label>Town/City*</label>
+								   <input type="text" placeholder="Town/City">
+							   </div>
+
+							   <div class="col-md-6 col-12 mb-5">
+								   <label>State*</label>
+								   <input type="text" placeholder="State">
+							   </div>
+
+							   <div class="col-md-6 col-12 mb-5">
+								   <label>Zip Code*</label>
+								   <input type="text" placeholder="Zip Code">
+							   </div>
+
+							   <div class="col-12 mb-5">
+								   <div class="check-box mb-15">
+									   <input type="checkbox" id="create_account">
+									   <label for="create_account">Create an Acount?</label>
+								   </div>
+								   <div class="check-box mb-15">
+									   <input type="checkbox" id="shiping_address" data-shipping>
+									   <label for="shiping_address">Ship to Different Address</label>
+								   </div>
+							   </div>
+
+						   </div>
+
+					   </div>
+
+					   <!-- Shipping Address -->
+					   <div id="shipping-form" class="mb-20">
+						   <h4 class="checkout-title">Shipping Address</h4>
+
+						   <div class="row">
+
+							   <div class="col-md-6 col-12 mb-5">
+								   <label>First Name*</label>
+								   <input type="text" placeholder="First Name">
+							   </div>
+
+							   <div class="col-md-6 col-12 mb-5">
+								   <label>Last Name*</label>
+								   <input type="text" placeholder="Last Name">
+							   </div>
+
+							   <div class="col-md-6 col-12 mb-5">
+								   <label>Email Address*</label>
+								   <input type="email" placeholder="Email Address">
+							   </div>
+
+							   <div class="col-md-6 col-12 mb-5">
+								   <label>Phone no*</label>
+								   <input type="text" placeholder="Phone number">
+							   </div>
+
+							   <div class="col-12 mb-5">
+								   <label>Company Name</label>
+								   <input type="text" placeholder="Company Name">
+							   </div>
+
+							   <div class="col-12 mb-5">
+								   <label>Address*</label>
+								   <input type="text" placeholder="Address line 1">
+								   <input type="text" placeholder="Address line 2">
+							   </div>
+
+							   <div class="col-md-6 col-12 mb-5">
+								   <label>Country*</label>
+								   <select class="nice-select">
+										<option>Bangladesh</option>
+										<option>China</option>
+										<option>country</option>
+										<option>India</option>
+										<option>Japan</option>
+								   </select>
+							   </div>
+
+							   <div class="col-md-6 col-12 mb-5">
+								   <label>Town/City*</label>
+								   <input type="text" placeholder="Town/City">
+							   </div>
+
+							   <div class="col-md-6 col-12 mb-5">
+								   <label>State*</label>
+								   <input type="text" placeholder="State">
+							   </div>
+
+							   <div class="col-md-6 col-12 mb-5">
+								   <label>Zip Code*</label>
+								   <input type="text" placeholder="Zip Code">
+							   </div>
+
+						   </div>
+
+					   </div>
+
+				   </div>
+
+				   <div class="col-lg-5">
+					   <div class="row">
+
+						   <!-- Cart Total -->
+						   <div class="col-12 mb-40">
+
+							   <h4 class="checkout-title">Cart Total</h4>
+
+							   <div class="checkout-cart-total">
+
+								   <h4>Product <span>Total</span></h4>
+
+								   <ul>
+									   <li>Samsome Notebook Pro 5 X 01 <span>$295.00</span></li>
+									   <li>Aquet Drone  D 420 X 02 <span>$550.00</span></li>
+									   <li>Play Station X 22 X 01 <span>$295.00</span></li>
+									   <li>Roxxe Headphone Z 75 X 01 <span>$110.00</span></li>
+								   </ul>
+
+								   <p>Sub Total <span>$1250.00</span></p>
+								   <p>Shipping Fee <span>$00.00</span></p>
+
+								   <h4>Grand Total <span>$1250.00</span></h4>
+
+							   </div>
+
+						   </div>
+
+						   <!-- Payment Method -->
+						   <div class="col-12 mb-40">
+
+							   <h4 class="checkout-title">Payment Method</h4>
+
+							   <div class="checkout-payment-method">
+
+								   <div class="single-method">
+									   <input type="radio" id="payment_check" name="payment-method" value="check">
+									   <label for="payment_check">Check Payment</label>
+									   <p data-method="check">Please send a Check to Store name with Store Street, Store Town, Store State, Store Postcode, Store Country.</p>
+								   </div>
+
+								   <div class="single-method">
+									   <input type="radio" id="payment_bank" name="payment-method" value="bank">
+									   <label for="payment_bank">Direct Bank Transfer</label>
+									   <p data-method="bank">Please send a Check to Store name with Store Street, Store Town, Store State, Store Postcode, Store Country.</p>
+								   </div>
+
+								   <div class="single-method">
+									   <input type="radio" id="payment_cash" name="payment-method" value="cash">
+									   <label for="payment_cash">Cash on Delivery</label>
+									   <p data-method="cash">Please send a Check to Store name with Store Street, Store Town, Store State, Store Postcode, Store Country.</p>
+								   </div>
+
+								   <div class="single-method">
+									   <input type="radio" id="payment_paypal" name="payment-method" value="paypal">
+									   <label for="payment_paypal">Paypal</label>
+									   <p data-method="paypal">Please send a Check to Store name with Store Street, Store Town, Store State, Store Postcode, Store Country.</p>
+								   </div>
+
+								   <div class="single-method">
+									   <input type="radio" id="payment_payoneer" name="payment-method" value="payoneer">
+									   <label for="payment_payoneer">Payoneer</label>
+									   <p data-method="payoneer">Please send a Check to Store name with Store Street, Store Town, Store State, Store Postcode, Store Country.</p>
+								   </div>
+
+								   <div class="single-method">
+									   <input type="checkbox" id="accept_terms">
+									   <label for="accept_terms">I’ve read and accept the terms & conditions</label>
+								   </div>
+
+							   </div>
+
+							   <button class="place-order">Place order</button>
+
+						   </div>
+
+					   </div>
+				   </div>
+
+			   </div>
+			</form>
+       
         </div>
     </div><!-- Page Section End -->
 
