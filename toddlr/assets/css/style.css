@@ -848,7 +848,7 @@ img.mfp-img {
   -ms-flex-item-align: end;
   align-self: flex-end; }
   .header-logo img {
-    max-width: 100%; }
+    max-width: 80%; }
 
 /*-- Header Shop Links --*/
 .header-shop-links {
