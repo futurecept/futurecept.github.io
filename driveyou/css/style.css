@@ -3574,7 +3574,7 @@ hr.style-one {
 * 15. testimonials styles
 */
 .testimonials-style-one {
-	background: #111111 url(../images/background/testi-bg-1-1.jpg) center center
+	background: #111111 url(../images/background/testimonial-bg.jpg) center center
 		no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -4423,7 +4423,7 @@ hr.style-one {
 
 /* -- MODIFICATIONS -- */
 .logo-block img {
-	width: 100px;
+	width: 80px;
 }
 
 .feature-img {
@@ -4488,4 +4488,51 @@ hr.style-one {
 	margin-bottom: 80px;
 	line-height: unset;
 	font-size: 20px;
+}
+
+.single-offer-one .text-block h3 a {
+	font-size: 28px;
+}
+
+.about-style-one .video-block-one .content-block {
+	padding: 30px 47px;
+}
+
+a {
+	color: black;
+}
+
+.about-style-one .video-block-one .content-block h3 {
+	font-weight: 700;
+	font-size: 28px;
+}
+
+.about-style-one .video-block-one {
+	background-color: #ffc000;
+}
+
+.about-style-one .row {
+	align-items: center;
+}
+
+a:hover {
+	color: #111111;
+	text-decoration: underline;
+}
+
+.single-offer-one .image-block:before {
+	background-color: transparent;
+}
+
+.single-offer-one .text-block h3 {
+	color: #111111;
+}
+
+.single-offer-one .text-block {
+	padding-left: 56px;
+	padding-right: 56px;
+}
+
+.bottom-footer .center-block a {
+	color: #ffc000;
 }

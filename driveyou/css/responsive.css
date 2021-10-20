@@ -635,6 +635,10 @@
 		display: none;
 	}
 
+	.call-block .right-block {
+		display: unset;
+	}
+
 	.banner-style-one .slide {
 		padding: 100px 0;
 		padding-top: 186px;
