@@ -2764,9 +2764,10 @@ hr.style-one {
 }
 
 .about-style-two {
-	padding-top: 120px;
+	padding-top: 30px;
 	padding-bottom: 120px;
 }
+
 .about-style-two .image-block {
 	margin-left: 30px;
 	overflow: hidden;
@@ -4440,7 +4441,7 @@ hr.style-one {
 
 .inner-banner {
 	padding-top: 60px;
-	padding-bottom: 0;
+	padding-bottom: 60px;
 	background: #ffffff;
 }
 
@@ -4481,4 +4482,10 @@ hr.style-one {
 
 .site-footer .bottom-footer .inner-container {
 	justify-content: center;
+}
+
+.terms-body {
+	margin-bottom: 80px;
+	line-height: unset;
+	font-size: 20px;
 }
